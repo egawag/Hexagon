@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | SSASnakesExperiment</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=500 height=500 style="width: 500px; height: 500px; background: #000000"></canvas>
-    <script src="Build/HexagonWebGL1.loader.js"></script>
+    <canvas id="unity-canvas" width=1024 height=1024 style="width: 1024px; height: 1024px; background: #000000"></canvas>
+    <script src="Build/HexagonWebGL2.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/HexagonWebGL1.data",
-        frameworkUrl: "Build/HexagonWebGL1.framework.js",
-        codeUrl: "Build/HexagonWebGL1.wasm",
+        dataUrl: "Build/HexagonWebGL2.data",
+        frameworkUrl: "Build/HexagonWebGL2.framework.js",
+        codeUrl: "Build/HexagonWebGL2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "SSASnakesExperiment",
